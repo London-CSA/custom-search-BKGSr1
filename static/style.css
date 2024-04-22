@@ -19,7 +19,7 @@ body {
 
 
 button, input[type="submit"] {
-    background-color: #5aabf1;
+    background-color: #3234a8;
     border: 1px solid transparent;
     border-radius: 0.25rem;
     font-size: 0.95rem;
@@ -32,7 +32,8 @@ button, input[type="submit"] {
 }
 
 button, input[type="submit"]:hover:enabled{
-	background-color: #00FFFF;
+	background-color: #5e32a8;
+    color: #fff;
 }
 
 input[type="text"] {
@@ -55,13 +56,14 @@ table {
 
 table th 
 {
-		background-color: #E8F1FF;
+		background-image: url("./vilemaw.png");
+        background-size: cover;
 		padding: 0.75rem;
     vertical-align: middle;
 }
 
 table td{
-	background-color: #BFD4F6;
+	background-color: #d6db70;
 }
 
 td.footer{
@@ -79,4 +81,5 @@ td.footer a{
 
 td.footer a:hover{
 	text-decoration: underline;
+    color: blue;
 }
